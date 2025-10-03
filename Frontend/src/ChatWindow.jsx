@@ -2,7 +2,6 @@ import { useContext,useState,useEffect } from "react";
 import Chat from "./Chat.jsx";
 import "./ChatWindow.css"
 import { MyContext } from "./MyContext.jsx";
-import Thread from "../../Backend/models/Thread.js";
 import {PropagateLoader} from "react-spinners"
 
 function ChatWindow() {
