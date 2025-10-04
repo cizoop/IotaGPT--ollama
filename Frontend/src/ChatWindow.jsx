@@ -3,6 +3,7 @@ import Chat from "./Chat.jsx";
 import "./ChatWindow.css"
 import { MyContext } from "./MyContext.jsx";
 import {PropagateLoader} from "react-spinners"
+import server from "./environment.js";
 
 function ChatWindow() {
   const {prompt,setPrompt,reply,setReply,currThreadId,prevChats,setPrevChats,newChat,setNewChat}=useContext(MyContext);
